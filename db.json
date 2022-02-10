@@ -1,0 +1,38 @@
+{
+  "GetContracts": [
+    {
+      "ContractId": 2,
+      "ContractName": "Platinum 0709",
+      "CFMOwner": "Nandhini",
+      "AlertMode": "Email",
+      "Schedule": [
+        {
+          "ScheduleType": "Standard",
+          "ForecastFrequency": "monthly",
+          "ForecastStartWorkday": 1,
+          "ForecastEndWorkday": 31,
+          "FirstReminder": 11,
+          "RemindersFrequency": 2,
+          "NumberOfReminders": 3,
+          "FirstEscalation": 18,
+          "SecondEscalation": 21,
+          "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
+          "IsDefault": "InActive"
+        },
+        {
+          "ScheduleType": "Custom",
+          "ForecastFrequency": "monthly",
+          "ForecastStartWorkday": 3,
+          "ForecastEndWorkday": 18,
+          "FirstReminder": 8,
+          "RemindersFrequency": 2,
+          "NumberOfReminders": 2,
+          "FirstEscalation": 13,
+          "SecondEscalation": 16,
+          "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
+          "IsDefault": "Active"
+        }
+      ]
+    }
+  ]
+}
