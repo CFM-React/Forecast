@@ -8,7 +8,7 @@
       "Schedule": [
         {
           "ScheduleType": "Standard",
-          "ForecastFrequency": "monthly",
+          "ForecastFrequency": "Monthly",
           "ForecastStartWorkday": 1,
           "ForecastEndWorkday": 31,
           "FirstReminder": 11,
@@ -21,7 +21,41 @@
         },
         {
           "ScheduleType": "Custom",
-          "ForecastFrequency": "monthly",
+          "ForecastFrequency": "Monthly",
+          "ForecastStartWorkday": 3,
+          "ForecastEndWorkday": 18,
+          "FirstReminder": 8,
+          "RemindersFrequency": 2,
+          "NumberOfReminders": 2,
+          "FirstEscalation": 13,
+          "SecondEscalation": 16,
+          "NotificationTime": "02:06:AM",
+          "IsDefault": "Active"
+        }
+      ]
+    },
+     {
+      "ContractId": 3,
+      "ContractName": "Gold 0709",
+      "CFMOwner": "Sumit",
+      "AlertMode": "Email",
+      "Schedule": [
+        {
+          "ScheduleType": "Standard",
+          "ForecastFrequency": "Yearly",
+          "ForecastStartWorkday": 1,
+          "ForecastEndWorkday": 26,
+          "FirstReminder": 11,
+          "RemindersFrequency": 2,
+          "NumberOfReminders": 3,
+          "FirstEscalation": 18,
+          "SecondEscalation": 21,
+          "NotificationTime": "02:06:AM",
+          "IsDefault": "InActive"
+        },
+        {
+          "ScheduleType": "Custom",
+          "ForecastFrequency": "Yearly",
           "ForecastStartWorkday": 3,
           "ForecastEndWorkday": 18,
           "FirstReminder": 8,
