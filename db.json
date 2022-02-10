@@ -16,7 +16,7 @@
           "NumberOfReminders": 3,
           "FirstEscalation": 18,
           "SecondEscalation": 21,
-          "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
+          "NotificationTime": "02:06:AM",
           "IsDefault": "InActive"
         },
         {
@@ -29,7 +29,7 @@
           "NumberOfReminders": 2,
           "FirstEscalation": 13,
           "SecondEscalation": 16,
-          "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
+          "NotificationTime": "02:06:AM",
           "IsDefault": "Active"
         }
       ]
