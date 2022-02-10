@@ -8,7 +8,7 @@
       "Schedule": [
         {
           "ScheduleType": "Standard",
-          "ForecastFrequency": "Monthly",
+          "ForecastFrequency": "monthly",
           "ForecastStartWorkday": 1,
           "ForecastEndWorkday": 31,
           "FirstReminder": 11,
@@ -21,7 +21,7 @@
         },
         {
           "ScheduleType": "Custom",
-          "ForecastFrequency": "Monthly",
+          "ForecastFrequency": "monthly",
           "ForecastStartWorkday": 3,
           "ForecastEndWorkday": 18,
           "FirstReminder": 8,
