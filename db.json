@@ -76,7 +76,7 @@
         
         "ContractName": "Platinum 0709",
         
-        "CFMOwner": "Nandhini",
+        "CFMOwner": "chinmayee",
         
         "AlertMode": "Email",
         
@@ -94,11 +94,11 @@
         
         "FirstReminder": 11,
         
-        "RemindersFrequency": 2,
+        "RemindersFrequency": 5,
         
         "NumberOfReminders": 3,
         
-        "FirstEscalation": 18,
+        "FirstEscalation": 10,
         
         "SecondEscalation": 21,
         
@@ -120,11 +120,11 @@
         
              "FirstReminder": 8,
         
-             "RemindersFrequency": 2,
+             "RemindersFrequency": 5,
         
              "NumberOfReminders": 2,
         
-             "FirstEscalation": 13,
+             "FirstEscalation": 10,
         
              "SecondEscalation": 16,
         
