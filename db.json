@@ -44,7 +44,7 @@
     
          "ScheduleType": "Custom",
     
-         "ForecastFrequency": "monthly",
+         "ForecastFrequency": "Daily",
     
          "ForecastStartWorkday": 3,
     
