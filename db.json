@@ -36,7 +36,7 @@
     
     "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
     
-    "IsDefault": "InActive"
+    "IsDefault": true
     
     },
     
@@ -62,7 +62,7 @@
     
          "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
     
-         "IsDefault": "Active"
+         "IsDefault": true
     
         }
     
@@ -104,7 +104,7 @@
         
         "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
         
-        "IsDefault": "InActive"
+        "IsDefault": false
         
         },
         
@@ -130,7 +130,7 @@
         
              "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
         
-             "IsDefault": "Active"
+             "IsDefault": false
         
             }
         
