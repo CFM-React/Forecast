@@ -1,7 +1,7 @@
 {
   "GetContracts": [
     {
-      "id":1
+      "id":1,
       "ContractId": 2,
       "ContractName": "Platinum 0709",
       "CFMOwner": "Nandhini",
@@ -36,7 +36,7 @@
       ]
     },
      {
-       "id":2
+       "id":2,
       "ContractId": 3,
       "ContractName": "Gold 0709",
       "CFMOwner": "Sumit",
