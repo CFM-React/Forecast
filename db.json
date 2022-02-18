@@ -2,34 +2,34 @@
   "GetContracts": [
     {
       "ContractId": 1,
-      "ContractName": "string",
-      "CFMOwner": "string",
-      "AlertMode": "string",
+      "ContractName": "Platinum 0709",
+      "CFMOwner": "Nandhini",
+      "AlertMode": "Email",
       "Standard": [
         {
-          "ScheduleType": "string",
+          "ScheduleType": "Standard",
           "ForecastFrequency": [
             {
-              "ForecastFrequency": "string"
+              "ForecastFrequency": "Daily"
             }
           ],
-          "ForecastStartWorkday": 0,
-          "ForecastEndWorkday": 0,
-          "FirstReminder": 0,
-          "RemindersFrequency": 0,
-          "NumberOfReminders": 0,
-          "FirstEscalation": 0,
-          "SecondEscalation": 0,
+          "ForecastStartWorkday": 1,
+          "ForecastEndWorkday": 31,
+          "FirstReminder": 11,
+          "RemindersFrequency": 5,
+          "NumberOfReminders": 3,
+          "FirstEscalation": 12,
+          "SecondEscalation": 14,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": 1
+          "EnableForecast": true
         }
       ],
       "Custom": [
         {
-          "ScheduleType": "string",
+          "ScheduleType": "Custom",
           "ForecastFrequency": [
             {
-              "ForecastFrequency": "string"
+              "ForecastFrequency": "Daily"
             }
           ],
           "ForecastStartWorkday": 4,
@@ -40,7 +40,51 @@
           "FirstEscalation": 9,
           "SecondEscalation": 10,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": 0
+          "EnableForecast": false
+        }
+      ]
+    },
+    {
+      "ContractId": 2,
+      "ContractName": "Gold 0709",
+      "CFMOwner": "Sumit",
+      "AlertMode": "Email",
+      "Standard": [
+        {
+          "ScheduleType": "Standard",
+          "ForecastFrequency": [
+            {
+              "ForecastFrequency": "Monthly"
+            }
+          ],
+          "ForecastStartWorkday": 1,
+          "ForecastEndWorkday": 27,
+          "FirstReminder": 12,
+          "RemindersFrequency": 5,
+          "NumberOfReminders": 3,
+          "FirstEscalation": 13,
+          "SecondEscalation": 16,
+          "NotificationTime": "2022-02-17T06:19:59.347Z",
+          "EnableForecast": true
+        }
+      ],
+      "Custom": [
+        {
+          "ScheduleType": "Custom",
+          "ForecastFrequency": [
+            {
+              "ForecastFrequency": "Monthly"
+            }
+          ],
+          "ForecastStartWorkday": 12,
+          "ForecastEndWorkday": 6,
+          "FirstReminder": 6,
+          "RemindersFrequency": 16,
+          "NumberOfReminders": 13,
+          "FirstEscalation": 12,
+          "SecondEscalation": 10,
+          "NotificationTime": "2022-02-17T06:19:59.347Z",
+          "EnableForecast": false
         }
       ]
     }
