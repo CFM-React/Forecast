@@ -1,143 +1,48 @@
 {
-
-    "GetContracts": [
-    
+  "GetContracts": [
     {
-    "id":1,
-    "ContractId": 1,
-    
-    "ContractName": "Platinum 0709",
-    
-    "CFMOwner": "Nandhini",
-    
-    "AlertMode": "Email",
-    
-    "Schedule": [
-    
-    {
-    
-    "ScheduleType": "Standard",
-    
-    "ForecastFrequency": "Daily",
-    
-    "ForecastStartWorkday": 1,
-    
-    "ForecastEndWorkday": 31,
-    
-    "FirstReminder": 11,
-    
-    "RemindersFrequency": 2,
-    
-    "NumberOfReminders": 3,
-    
-    "FirstEscalation": 18,
-    
-    "SecondEscalation": 21,
-    
-    "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
-    
-    "IsDefault": true
-    
-    },
-    
+      "ContractId": 1,
+      "ContractName": "string",
+      "CFMOwner": "string",
+      "AlertMode": "string",
+      "Standard": [
         {
-    
-         "ScheduleType": "Custom",
-    
-         "ForecastFrequency": "Daily",
-    
-         "ForecastStartWorkday": 3,
-    
-         "ForecastEndWorkday": 18,
-    
-         "FirstReminder": 8,
-    
-         "RemindersFrequency": 2,
-    
-         "NumberOfReminders": 2,
-    
-         "FirstEscalation": 13,
-    
-         "SecondEscalation": 16,
-    
-         "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
-    
-         "IsDefault": false
-    
-        }
-    
-    ]
-    
-    },
-
-    {
-        "id":2,
-        "ContractId": 2,
-        
-        "ContractName": "Platinum 0709",
-        
-        "CFMOwner": "chinmayee",
-        
-        "AlertMode": "Email",
-        
-        "Schedule": [
-        
-        {
-        
-        "ScheduleType": "Standard",
-        
-        "ForecastFrequency": "monthly",
-        
-        "ForecastStartWorkday": 1,
-        
-        "ForecastEndWorkday": 31,
-        
-        "FirstReminder": 11,
-        
-        "RemindersFrequency": 5,
-        
-        "NumberOfReminders": 3,
-        
-        "FirstEscalation": 10,
-        
-        "SecondEscalation": 21,
-        
-        "NotificationTime": "2022-02-08T19:03:48.9522121+05:30",
-        
-        "IsDefault": true
-        
-        },
-        
+          "ScheduleType": "string",
+          "ForecastFrequency": [
             {
-        
-             "ScheduleType": "Custom",
-        
-             "ForecastFrequency": "monthly",
-        
-             "ForecastStartWorkday": 3,
-        
-             "ForecastEndWorkday": 18,
-        
-             "FirstReminder": 8,
-        
-             "RemindersFrequency": 5,
-        
-             "NumberOfReminders": 2,
-        
-             "FirstEscalation": 10,
-        
-             "SecondEscalation": 16,
-        
-             "NotificationTime": "2022-02-08T19:03:48.9733873+05:30",
-        
-             "IsDefault": false
-        
+              "ForecastFrequency": "string"
             }
-        
-        ]
-        
+          ],
+          "ForecastStartWorkday": 0,
+          "ForecastEndWorkday": 0,
+          "FirstReminder": 0,
+          "RemindersFrequency": 0,
+          "NumberOfReminders": 0,
+          "FirstEscalation": 0,
+          "SecondEscalation": 0,
+          "NotificationTime": "2022-02-17T06:19:59.347Z",
+          "EnableForecast": 1
         }
-    
-    ]
-    
+      ],
+      "Custom": [
+        {
+          "ScheduleType": "string",
+          "ForecastFrequency": [
+            {
+              "ForecastFrequency": "string"
+            }
+          ],
+          "ForecastStartWorkday": 4,
+          "ForecastEndWorkday": 5,
+          "FirstReminder": 6,
+          "RemindersFrequency": 7,
+          "NumberOfReminders": 8,
+          "FirstEscalation": 9,
+          "SecondEscalation": 10,
+          "NotificationTime": "2022-02-17T06:19:59.347Z",
+          "EnableForecast": 0
+        }
+      ]
     }
+  ]
+}
