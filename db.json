@@ -17,7 +17,7 @@
           "FirstEscalation": 12,
           "SecondEscalation": 14,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": true
+          "IsActive": true
         },
         {
           "ScheduleType": "Custom",
@@ -30,7 +30,7 @@
           "FirstEscalation": 9,
           "SecondEscalation": 10,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": false
+          "IsActive": false
         }
       ]
     },
@@ -51,7 +51,7 @@
           "FirstEscalation": 12,
           "SecondEscalation": 14,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": true
+          "IsActive": true
         },
         {
           "ScheduleType": "Custom",
@@ -64,7 +64,7 @@
           "FirstEscalation": 9,
           "SecondEscalation": 10,
           "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "EnableForecast": false
+          "IsActive": false
         }
       ]
     }
