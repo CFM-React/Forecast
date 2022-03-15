@@ -1,72 +1,92 @@
 {
-  "GetContracts": [
-    {
-      "ContractId": 1,
-      "ContractName": "Platinum 0709",
-      "CFMOwner": "Nandhini",
-      "AlertMode": "Email",
-      "Schedule": [
+    "GetContracts": [
         {
-          "ScheduleType": "Standard",
-          "ForecastFrequency": "Daily"
-          "ForecastStartWorkday": 1,
-          "ForecastEndWorkday": 31,
-          "FirstReminder": 11,
-          "RemindersFrequency": 5,
-          "NumberOfReminders": 3,
-          "FirstEscalation": 12,
-          "SecondEscalation": 14,
-          "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "IsActive": true
+            "ContractId": null,
+            "ContractName": "Contract2",
+            "CFMOwner": "abhilash",
+            "AlertMode": "Email",
+            "Standard": [
+                {
+                    "ScheduleType": "Standard",
+                    "ForecastFrequency": [
+                        {
+                            "ForecastFrequency": "monthly"
+                        }
+                    ],
+                    "ForecastStartWorkday": 1,
+                    "ForecastEndWorkday": 20,
+                    "FirstReminder": 11,
+                    "RemindersFrequency": 2,
+                    "NumberofReminders": 2,
+                    "FirstEscalation": 17,
+                    "SecondEscalation": 19,
+                    "NotificationTime": "2022-03-15T06:07:55.4889308+00:00",
+                    "EnableForecast": false
+                }
+            ],
+            "Custom": [
+                {
+                    "ScheduleType": "Custom",
+                    "ForecastFrequency": [
+                        {
+                            "ForecastFrequency": "yearly"
+                        }
+                    ],
+                    "ForecastStartWorkday": 3,
+                    "ForecastEndWorkday": 21,
+                    "FirstReminder": 9,
+                    "RemindersFrequency": 2,
+                    "NumberofReminders": 3,
+                    "FirstEscalation": 16,
+                    "SecondEscalation": 19,
+                    "NotificationTime": "2022-03-15T06:07:55.4889368+00:00",
+                    "EnableForecast": true
+                }
+            ]
         },
         {
-          "ScheduleType": "Custom",
-           "ForecastFrequency": "Daily"
-          "ForecastStartWorkday": 4,
-          "ForecastEndWorkday": 5,
-          "FirstReminder": 6,
-          "RemindersFrequency": 7,
-          "NumberOfReminders": 8,
-          "FirstEscalation": 9,
-          "SecondEscalation": 10,
-          "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "IsActive": false
+            "ContractId": null,
+            "ContractName": "Contract2",
+            "CFMOwner": "n.h",
+            "AlertMode": "Email",
+            "Standard": [
+                {
+                    "ScheduleType": "Standard",
+                    "ForecastFrequency": [
+                        {
+                            "ForecastFrequency": "quarterly"
+                        }
+                    ],
+                    "ForecastStartWorkday": 3,
+                    "ForecastEndWorkday": 65,
+                    "FirstReminder": 4,
+                    "RemindersFrequency": 54,
+                    "NumberofReminders": 4,
+                    "FirstEscalation": 1,
+                    "SecondEscalation": 2,
+                    "NotificationTime": "2022-03-15T06:07:55.4889398+00:00",
+                    "EnableForecast": true
+                }
+            ],
+            "Custom": [
+                {
+                    "ScheduleType": "Custom",
+                    "ForecastFrequency": [
+                        {
+                            "ForecastFrequency": "monthly"
+                        }
+                    ],
+                    "ForecastStartWorkday": 3,
+                    "ForecastEndWorkday": 21,
+                    "FirstReminder": 3,
+                    "RemindersFrequency": 13,
+                    "NumberofReminders": 4,
+                    "FirstEscalation": 22,
+                    "SecondEscalation": 1,
+                    "NotificationTime": "2022-03-15T06:07:55.4889406+00:00",
+                    "EnableForecast": false
+                }
+            ]
         }
-      ]
-    },
-    {
-      "ContractId": 2,
-      "ContractName": "Gold 0709",
-      "CFMOwner": "Sumit",
-      "AlertMode": "Email",
-      "Schedule": [
-        {
-          "ScheduleType": "Standard",
-          "ForecastFrequency": "Monthly"
-          "ForecastStartWorkday": 1,
-          "ForecastEndWorkday": 31,
-          "FirstReminder": 11,
-          "RemindersFrequency": 5,
-          "NumberOfReminders": 3,
-          "FirstEscalation": 12,
-          "SecondEscalation": 14,
-          "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "IsActive": true
-        },
-        {
-          "ScheduleType": "Custom",
-           "ForecastFrequency": "Monthly"
-          "ForecastStartWorkday": 4,
-          "ForecastEndWorkday": 5,
-          "FirstReminder": 6,
-          "RemindersFrequency": 7,
-          "NumberOfReminders": 8,
-          "FirstEscalation": 9,
-          "SecondEscalation": 10,
-          "NotificationTime": "2022-02-17T06:19:59.347Z",
-          "IsActive": false
-        }
-      ]
-    }
-  ]
+    ]
 }
